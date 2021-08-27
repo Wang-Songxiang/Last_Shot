@@ -2,11 +2,8 @@
 使用方法:  
 
 将要算的轴复制粘贴到timeline.txt中  
-
 在config.txt中输入尾刀的剩余时间  
-
 启动Last_Shot.exe  
-
 计算后的时间轴保存在timeline_out.txt文件中  
 
 更新日志  
