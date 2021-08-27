@@ -1,9 +1,8 @@
 <h1>这是一个帮你算尾刀轴的程序</h1>  
-使用方法:  
-
+使用方法：  
 将要算的轴复制粘贴到timeline.txt中  
 在config.txt中输入尾刀的剩余时间  
-启动Last_Shot.exe  
+启动Last_Shot.exe    
 计算后的时间轴保存在timeline_out.txt文件中  
 
 更新日志  

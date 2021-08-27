@@ -8,6 +8,8 @@ with open("timeline.txt", "r", encoding="utf-8") as f2:
         f3.write("剩余时间为"+str(t)+"秒\n")
         minutes=int(t/60)
         seconds=t-60
+        if seconds<10:
+            seconds='0'+str(seconds)
         f3.write(str(minutes)+':'+str(seconds)+" 战斗开始\n")
         line = f2.readlines()
         for i in range(len(line)):
