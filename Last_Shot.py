@@ -7,7 +7,7 @@ with open("timeline.txt", "r", encoding="utf-8") as f2:
     with open("timeline_out.txt", "w", encoding="utf-8") as f3:
         f3.write("剩余时间为"+str(t)+"秒\n")
         minutes=int(t/60)
-        seconds=t-60
+        seconds=t%60
         if seconds<10:
             seconds='0'+str(seconds)
         f3.write(str(minutes)+':'+str(seconds)+" 战斗开始\n")
